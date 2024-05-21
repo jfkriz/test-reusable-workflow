@@ -1,0 +1,11 @@
+name: Composite action
+inputs:
+  CHECKOUT_ACTION_VERSION:
+    type: number
+    required: false
+    default: 2
+
+runs:
+  using: composite
+  steps:
+    - uses: actions/checkout@v2
