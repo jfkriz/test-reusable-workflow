@@ -4,6 +4,6 @@ on:
 jobs:
   call_workflow:
     name: Deploy Cron Job
-    uses: ./.github/workflows/callable.yml
+    uses: ./.github/workflows/private/callable.yml
     with:
       CHECKOUT_ACTION_VERSION: 2
